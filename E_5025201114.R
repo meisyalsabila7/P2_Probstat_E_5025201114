@@ -52,3 +52,34 @@ pvalue
 # 2a, b, c
 # Jawaban di README
 
+
+# Soal 3
+# 3a
+H0 = 9.50
+H1 = 10.98
+
+# 3b
+nBDG = 19
+nBL = 27
+meanBDG = 3.64
+meanBL = 2.79
+sdBDG = 1.67
+sdBL = 1.32
+signLevel = 0.05
+
+#Cari SP2 dulu
+SP2 = ((nBDG-1)*sdBDG*sdBDG + (nBL-1)*sdBL*sdBL)/ (nBDG+nBL-2)
+
+#Hitung t
+t = (meanBDG-meanBL - 0)/(sqrt(SP2*(1/nBDG + 1/nBL)))
+
+# 3c
+t = qt(p=signLevel, df=2)
+batasAtas = (meanBDG - meanBL) - t*(sqrt(SP2*(1/nBDG + 1/nBL)))
+batasBawah = (meanBDG - meanBL) + t*(sqrt(SP2*(1/nBDG + 1/nBL)))
+
+# 3d
+t = qt(p=signLevel, df=2)
+
+# 3e dan 3f
+# Jawaban di README
