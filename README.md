@@ -103,9 +103,13 @@ Maka didapat keputusan bahwa H0 yaitu mobil rata-rata dikemudikan > 20.000km/tah
 ## Soal 3
 Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya didapatkanlah data berikut dari perusahaan saham tersebut.
 
+![3](https://user-images.githubusercontent.com/94627623/170876942-0f2c3ae4-1f70-4deb-ae3e-8727fa563ab1.jpg)
+
 Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada rata-ratanya (α= 0.05)? Buatlah :
 ### 3A 
 H0 dan H1
+
+![3a](https://user-images.githubusercontent.com/94627623/170876945-4f06d952-e86a-4491-9172-6a9f3f8d28c0.jpg)
 
 ```
 H0 = 9.50
@@ -131,6 +135,7 @@ SP2 = ((nBDG-1)*sdBDG*sdBDG + (nBL-1)*sdBL*sdBL)/ (nBDG+nBL-2)
 t = (meanBDG-meanBL - 0)/(sqrt(SP2*(1/nBDG + 1/nBL)))
 ```
 #### Hasil
+![3b](https://user-images.githubusercontent.com/94627623/170876946-4e36dd8b-2d21-46bc-9764-20e9618e30cd.jpg)
 
 ### 3C
 Lakukan Uji Statistik (df =2)
@@ -140,6 +145,7 @@ batasAtas = (meanBDG - meanBL) - t*(sqrt(SP2*(1/nBDG + 1/nBL)))
 batasBawah = (meanBDG - meanBL) + t*(sqrt(SP2*(1/nBDG + 1/nBL)))
 ```
 #### Hasil
+![3c](https://user-images.githubusercontent.com/94627623/170876947-eafd7d39-5e61-4b15-ac0f-4c97f8a6c047.jpg)
 
 ### 3D
 Nilai Kritikal
@@ -147,6 +153,7 @@ Nilai Kritikal
 t = qt(p=signLevel, df=2)
 ```
 #### Hasil
+![3d](https://user-images.githubusercontent.com/94627623/170876948-64f34274-dee4-4a2f-add5-d5af69ba24be.jpg)
 
 ### 3E
 Keputusan, didapatkan hasil;
