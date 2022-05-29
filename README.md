@@ -88,10 +88,31 @@ Apakah Anda setuju dengan klaim tersebut?
 `Setuju, karena H0 yaitu mobil rata-rata dikemudikan > 20.000km/tahun`
 ### 2B
 Jelaskan maksud dari output yang dihasilkan!
+
+![2](https://user-images.githubusercontent.com/94627623/170871099-d89d74d0-59ef-4924-8a47-b8b8375362a7.jpg)
+
 ### 2C
 Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
-### Jawaban 2B dan 2C
+#### Jawaban 2B dan 2C
 ```
 Tidak adanya level yang siginificant. Namun p-value yang bernilai 1.425032e-19 sudah cukup kecil.
 Maka didapat keputusan bahwa H0 yaitu mobil rata-rata dikemudikan > 20.000km/tahun.
 ```
+
+
+## Soal 3
+Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya didapatkanlah data berikut dari perusahaan saham tersebut.
+
+Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada rata-ratanya (α= 0.05)? Buatlah :
+### 3A 
+H0 dan H1
+### 3B
+Hitung Sampel Statistik
+### 3C
+Lakukan Uji Statistik (df =2)
+### 3D
+Nilai Kritikal
+### 3E
+Keputusan
+### 3F
+Kesimpulan
