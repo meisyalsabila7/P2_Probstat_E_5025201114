@@ -106,13 +106,52 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
 Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada rata-ratanya (α= 0.05)? Buatlah :
 ### 3A 
 H0 dan H1
+
+```
+H0 = 9.50
+H1 = 10.98
+```
 ### 3B
 Hitung Sampel Statistik
+```
+nBDG = 19
+nBL = 27
+meanBDG = 3.64
+meanBL = 2.79
+sdBDG = 1.67
+sdBL = 1.32
+signLevel = 0.05
+```
+* Cari SP2 dulu
+```
+SP2 = ((nBDG-1)*sdBDG*sdBDG + (nBL-1)*sdBL*sdBL)/ (nBDG+nBL-2)
+```
+* Hitung t
+```
+t = (meanBDG-meanBL - 0)/(sqrt(SP2*(1/nBDG + 1/nBL)))
+```
+#### Hasil
+
 ### 3C
 Lakukan Uji Statistik (df =2)
+```
+t = qt(p=signLevel, df=2)
+batasAtas = (meanBDG - meanBL) - t*(sqrt(SP2*(1/nBDG + 1/nBL)))
+batasBawah = (meanBDG - meanBL) + t*(sqrt(SP2*(1/nBDG + 1/nBL)))
+```
+#### Hasil
+
 ### 3D
 Nilai Kritikal
+```
+t = qt(p=signLevel, df=2)
+```
+#### Hasil
+
 ### 3E
-Keputusan
+Keputusan, didapatkan hasil;
+* batasAtas = 2.138197 
+* batasBawah = -0.4381968
+batas tersebut merupakan meanBDG - meanBL maka, `-0.4381968 < mean Bandung - mean Bali < 2.138197`
 ### 3F
-Kesimpulan
+Kesimpulan yang didapatkan menerima Hipotesis 0, dikarenakan meanBDG = meanBL.
